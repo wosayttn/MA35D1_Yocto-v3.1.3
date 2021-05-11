@@ -2,16 +2,61 @@
 <manifest>
 
   <default sync-j="2"/>
-  <remote fetch="git://github.com/OpenNuvoton" name="nuvoton"/>
+  <remote fetch="git://github.com/" name="github"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://github.com/meta-qt5" name="qt"/>
-  <project remote="nuvoton" name="MA35D1_Yocto-v3.1.3" revision="master" path="sources"/>
-  <project remote="yocto" revision="251639560dd29bd2da5e694c1d5958ca26b12d0d" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="89abc62b47f6f20db9d00a8ec9b2c1b6b60ac3f9" name="meta-virtualization" path="sources/meta-virtualization"/>
-  <project remote="oe" revision="430ef96fe65f62d8da995f446d5b9b093544f031" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="qt" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" name="meta-qt5" upstream="dunfell" path="sources/meta-qt5"/>
+  
+  <project name="OpenNuvoton/MA35D1_Yocto-v3.1.3" 
+           path="sources"
+           revision="master"
+           remote="github" />
+  
+  <project name="poky"
+           path="sources/poky"
+           revision="251639560dd29bd2da5e694c1d5958ca26b12d0d"
+           remote="yocto" />
+  
+  <project name="meta-virtualization"
+           path="sources/meta-virtualization"
+           revision="89abc62b47f6f20db9d00a8ec9b2c1b6b60ac3f9"
+           remote="yocto" />
+  
+  <project name="meta-openembedded"
+           path="sources/meta-openembedded"
+           revision="430ef96fe65f62d8da995f446d5b9b093544f031"
+           remote="oe" />
+  
+  <project name="meta-qt5"
+           path="sources/meta-qt5"
+           revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125"
+           upstream="dunfell"
+           remote="qt" />
 
+  <project name="pelioniot/build-pelion-edge"
+           path="build-env"
+           revision="refs/tags/2.2.0"
+           remote="github" />
+
+  <project name="meta-virtualization"
+           path="sources/meta-virtualization"
+           revision="65c40e6e57c92200160125a0776d88a64c1bf912"
+           remote="yocto" />
+
+  <project name="meta-security"
+           path="sources/meta-security"
+           revision="98ff502d4096331e2b8a8e4044860b23bf6f8ea5"
+           remote="yocto" />
+
+  <!-- software -->
+  <project name="pelioniot/meta-pelion-edge"
+           path="sources/meta-pelion-edge"
+           revision="refs/tags/2.2.0"
+           remote="github" />
+
+  <project name="pelioniot/meta-mbed-edge"
+           path="sources/meta-mbed-edge"
+           revision="refs/tags/2.2.0"
+           remote="github" />
  
-
 </manifest>
