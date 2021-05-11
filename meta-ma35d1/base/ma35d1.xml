@@ -33,11 +33,6 @@
            upstream="dunfell"
            remote="qt" />
 
-  <project name="pelioniot/build-pelion-edge"
-           path="build-env"
-           revision="refs/tags/2.2.0"
-           remote="github" />
-
   <project name="meta-security"
            path="sources/meta-security"
            revision="98ff502d4096331e2b8a8e4044860b23bf6f8ea5"
