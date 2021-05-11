@@ -38,11 +38,6 @@
            revision="refs/tags/2.2.0"
            remote="github" />
 
-  <project name="meta-virtualization"
-           path="sources/meta-virtualization"
-           revision="65c40e6e57c92200160125a0776d88a64c1bf912"
-           remote="yocto" />
-
   <project name="meta-security"
            path="sources/meta-security"
            revision="98ff502d4096331e2b8a8e4044860b23bf6f8ea5"
