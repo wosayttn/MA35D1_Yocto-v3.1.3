@@ -37,16 +37,5 @@
            path="sources/meta-security"
            revision="98ff502d4096331e2b8a8e4044860b23bf6f8ea5"
            remote="yocto" />
-
-  <!-- software -->
-  <project name="pelioniot/meta-pelion-edge"
-           path="sources/meta-pelion-edge"
-           revision="refs/tags/2.2.0"
-           remote="github" />
-
-  <project name="pelioniot/meta-mbed-edge"
-           path="sources/meta-mbed-edge"
-           revision="refs/tags/2.2.0"
-           remote="github" />
  
 </manifest>
