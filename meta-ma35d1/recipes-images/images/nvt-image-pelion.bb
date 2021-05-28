@@ -12,7 +12,7 @@ IMAGE_FSTYPES_remove = " ubi spinand nand"
 PACKAGECONFIG_append = " "
 
 IMAGE_INSTALL_append = "\
-    mbed-edge-core \
+    mbed-edge-core-ma35d1 \
     mbed-edge-examples \
     "
 
